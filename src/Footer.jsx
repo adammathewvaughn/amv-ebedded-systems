@@ -3,13 +3,14 @@ import "./Footer.css"
 
 const Footer = () => {
 return (
-<div id="Footer">
+
     <footer className="adam-foot">
     <p>
-        Made With Love by <a href="https://www.linkedin.com/in/vaughn-embedded-systems/" target="_blank">Adam M. Vaughn</a> | Embedded Systems In Birmingham, AL
+        Made With Love by<a href="https://www.linkedin.com/in/adam-m-vaughn/" target="_blank">Adam Mathew Vaughn</a>Embedded Systems | Birmingham, AL &copy; 2021
     </p>
+    &nbsp;
+    <a href="https://github.com/adammathewvaughn" target="_blank">GitHub</a> | <a href="https://twitter.com/adammathewv" target="_blank">Twitter</a> | <a href="https://discord.gg/QDX6SpZe" target="_blank">Discord</a>
     </footer>
-</div>
 )
 };
 
