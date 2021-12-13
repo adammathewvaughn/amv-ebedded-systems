@@ -28,10 +28,13 @@ function App() {
           <hr />
           <p className="brand">Embedded<br />Systems</p>
         </div>
-        <h4>-Automating a better tomorrow-</h4>
-        <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on Full-Stack Development and REST APIs. I'm currently working to combine my recent full-stack web development education with my background in construction and my love for hardware as an embedded systems engineer.
-            Embedded systems is the natural arris of the adjacent technological disciplines, and I'm excited to begin my path in the field. The juxtaposition of hardware and software has never been more at the forefront of our lives with the prevalence of the IoT and micro-controlled embedded systems via Raspberry Pi and Arduino.
-            I have an opportunity to contribute to a better world through embedded systems and home automation, and I'm eagerly working towards the opportunity to do so.</p>
+        <h4>—Automating a better tomorrow—</h4>
+        <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on incorporating Full-Stack Development and REST APIs into microcontrolled systems. 
+        My goal as an embedded systems engineer is to combine my recent Full-Stack Web-Development education with my background in construction and my love for 
+        hardware.As the juxtaposition of hardware and software has never been more at the forefront of our lives with the prevalence of the IoT and micro-controlled/automated embedded systems via Raspberry Pi and Arduino.
+        Embedded systems is the natural arris of the adjacent technological disciplines, and I'm excited to begin my path in the field.
+        I'm grateful for the opportunity to contribute to a better world through embedded systems and home automation, and I'm eagerly working to do more every day. 
+        I would love to talk to like-minded people, companies, organizations who are interested in acheiving similar goals.</p>
           <div className="LinksDiv">
           <a
             className="App-link"

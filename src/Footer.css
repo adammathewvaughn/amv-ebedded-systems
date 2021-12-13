@@ -12,6 +12,12 @@
   
 
 }
+
+.IBLove {
+    color: yellow;
+    text-shadow: 2px 2px purple;
+}
+
 a {
     margin: 5px;
     text-decoration:none;
