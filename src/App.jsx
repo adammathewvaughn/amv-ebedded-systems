@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from './logo.png'
+import Footer from './Footer';
 import './App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
@@ -27,10 +28,10 @@ function App() {
           <hr />
           <p className="brand">Embedded<br />Systems</p>
         </div>
-        <h4>"Automating a better tomorrow"</h4>
-        <p> I'm Adam and I'm a full-stack web developer and embedded systems engineer. I'm currently working to combine my recent full-stack web development education with my background in construction and my love for hardware engineering. 
+        <h4>-Automating a better tomorrow-</h4>
+        <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on Full-Stack Development and REST APIs. I'm currently working to combine my recent full-stack web development education with my background in construction and my love for hardware as an embedded systems engineer.
             Embedded systems is the natural arris of the adjacent technological disciplines, and I'm excited to begin my path in the field. The juxtaposition of hardware and software has never been more at the forefront of our lives with the prevalence of the IoT and micro-controlled embedded systems via Raspberry Pi and Arduino.
-             I feel like I have a chance to contribute to a better world through embedded systems and home automation, and I'm eagerly working towards the opportunity to do so.</p>
+            I have an opportunity to contribute to a better world through embedded systems and home automation, and I'm eagerly working towards the opportunity to do so.</p>
           <div className="LinksDiv">
           <a
             className="App-link"
@@ -63,6 +64,7 @@ function App() {
           </a>
           </div>
           </body>
+          <Footer />
           </div>
   )
 }
