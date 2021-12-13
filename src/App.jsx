@@ -34,7 +34,7 @@ function App() {
         hardware.As the juxtaposition of hardware and software has never been more at the forefront of our lives with the prevalence of the IoT and micro-controlled/automated embedded systems via Raspberry Pi and Arduino.
         Embedded systems is the natural arris of the adjacent technological disciplines, and I'm excited to begin my path in the field.
         I'm grateful for the opportunity to contribute to a better world through embedded systems and home automation, and I'm eagerly working to do more every day. 
-        I would love to talk to like-minded people, companies, organizations who are interested in acheiving similar goals.</p>
+        I would love to talk to like-minded people, companies, organizations who are interested in achieving similar goals.</p>
           <div className="LinksDiv">
           <a
             className="App-link"
