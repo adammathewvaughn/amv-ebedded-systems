@@ -2,20 +2,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: none;
     color:white;
     background:darkslategray;
     padding:23px;
     font-size: calc(5px + 2vmin);
     width: auto;
-      height: 10vh;
-  
+    height: 10vh;
 
 }
 
 .IBLove {
     color: yellow;
     text-shadow: 2px 2px purple;
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
