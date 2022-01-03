@@ -23,11 +23,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <body className="App-body">
-        <div className="amv-logo">
-          <p className="name">Adam Mathew Vaughn</p>
-          <hr />
-          <p className="brand">Embedded<br />Systems</p>
-        </div>
         <h4 className="slogan">—Automating a better tomorrow—</h4>
         <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on incorporating Full-Stack Development
          and REST APIs into microcontrolled systems. My goal as an embedded systems engineer is to combine my recent Full-Stack Web-Development education with my background in construction and my love for 
