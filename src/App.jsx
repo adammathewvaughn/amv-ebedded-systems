@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import logo from './logo.png'
+
 import Footer from './Footer';
+import Header from './Header';
 import './App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
@@ -17,11 +18,7 @@ function App() {
   const [count, setCount] = useState(0)
   return (
     <div className="App">
-      <header className="header">
-        <div className=""></div>
-        <div className=""></div>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+     <Header />
       <body className="App-body">
         <h4 className="slogan">—Automating a better tomorrow—</h4>
         <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on incorporating Full-Stack Development

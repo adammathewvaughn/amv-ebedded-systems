@@ -1,13 +1,15 @@
 import React from "react";
+import logo from './logo.png'
 //import icon from "./favicon.png";
 import "./Header.css";
 
 const Header = () => {
 return (
-<Header className="head">
- <p>Hello</p>
-</Header>
-);
+<header className="head">
+<img src={logo} className="App-logo" alt="logo" />
+</header>
+
+)
 }
 
 export default Header;
