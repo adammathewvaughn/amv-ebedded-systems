@@ -64,8 +64,8 @@ function App() {
           >Call
           </a>
           </div>
-          <Footer />
           </Row>
+          <Footer />
           </Col>
           </body>
           </div>
