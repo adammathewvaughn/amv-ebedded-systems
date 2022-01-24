@@ -6,9 +6,9 @@ import './App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import Container from 'react-bootstrap/Container';
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+
+
+
 
 const i = <FontAwesomeIcon icon={faCoffee} />
 
@@ -20,12 +20,12 @@ TagManager.initialize(tagManagerArgs)
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <Container className="Container-col-3">
+
     <div className="App">
       <Header />
       <body className="App-body">
-      <Col className="App-body-col">
-      <Row className="Row">
+      
+      
         <h4 className="slogan">—Automating a better tomorrow—</h4>
         <p> &nbsp;&nbsp;I'm Adam M. Vaughn and I'm an Embedded Systems engineer with an emphasis on incorporating Full-Stack Development
          and REST APIs into microcontrolled systems. My goal as an embedded systems engineer is to combine my recent Full-Stack Web-Development education with my background in construction and my love for 
@@ -63,13 +63,10 @@ function App() {
             rel="noopener noreferrer"
           >Call
           </a>
-          </div>
-          </Row>
-          <Footer />
-          </Col>
+          </div>        
           </body>
-          </div>
-          </Container>
+          <Footer />
+          </div>          
   )
 }
 
