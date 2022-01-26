@@ -20,10 +20,12 @@ TagManager.initialize(tagManagerArgs)
 function App() {
   const [count, setCount] = useState(0)
   return (
-
-    <div className="App">
-      <Header />
-      <body className="App-body">
+    <>
+    <div className="container">
+    <div className="App col-md-6 mt-0 py-0">
+    <Header className="col-md-6"/>
+    <div className="col-md-6">
+    <div className="App-body col-md-6">
       
       
         <h4 className="slogan">—Automating a better tomorrow—</h4>
@@ -32,7 +34,7 @@ function App() {
         hardware. With the prevalence of the IoT and micro-controlled/automated embedded systems via Raspberry Pi and Arduino, the juxtaposition of hardware and software has never been more at the forefront of our lives.
         Embedded systems is the natural arris of the myriad technologies that comprise our modern world, and I'm excited to begin my path in the field. I'm grateful for the opportunity to contribute to a 
         better world through coding and embedded systems, and I'm eagerly working to do more every day.
-        I would love to speak with like-minded people, companies, organizations who are interested in achieving similar goals, and I hope we can work together soon.</p>
+        I would love to speak with like-minded people, companies, and organizations who are interested in achieving similar goals, and I hope we can work together soon.</p>
           <div className="LinksDiv">
           <a
             className="App-link"
@@ -63,10 +65,14 @@ function App() {
             rel="noopener noreferrer"
           >Call
           </a>
-          </div>        
-          </body>
-          <Footer />
           </div>          
+          </div>          
+          </div>        
+          </div>
+          <Footer />
+          
+         </div>     
+          </>
   )
 }
 

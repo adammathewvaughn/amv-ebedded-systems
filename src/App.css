@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: none;
 }
 
 code {
@@ -16,7 +17,7 @@ code {
   background-color: white;
   color: #19336E;
   width:auto;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

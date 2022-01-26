@@ -3,16 +3,16 @@
     justify-content: center;
     align-items: center;
     color:white;
-    background:darkslategray;
+    background:#19336e;
     font-size: calc(5px + 2vmin);
     width: auto;
     height: auto;
-    color:cornflowerblue;
+    color:#19336e;
     padding:10px;
     }
 
 .App-logo {
-    height: auto;
-    width: 100%;
-    max-width: 300px;
+    height: 25rem;
+    width: 25rem;
+    
 }
