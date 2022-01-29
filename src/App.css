@@ -5,7 +5,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: none;
+  margin: 0px;
+  padding: 0px;
+  padding: 0px;
 }
 
 code {
@@ -53,10 +55,7 @@ code {
   color: #19336e;
   transition:ease-in-out;
   transition-duration: .25s;
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+  margin: 5px;
 }
 
 .LinksDiv {
@@ -66,19 +65,19 @@ button {
   align-items: center;
   justify-content: center;
   color: #19336E;
-  padding-bottom: 0px;
+  padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
 .slogan {
-  margin-bottom: none;
+  margin-bottom: 5px;
   padding-bottom:10px;
 }
 
-hr {
+/* hr {
       width: 198px;
       background-color: crimson;
       height: 4px;
       margin-top: -36px;
       border-radius: 50px;
-}
+} */
