@@ -20,7 +20,7 @@ TagManager.initialize(tagManagerArgs)
 function App() {
   const [count, setCount] = useState(0)
   return <>
-  <div className= "container col-md-6">
+  <div className= "container fluid">
   <div className="App col-md-6">
   <Header className="col-md-6"/>
   <div className="col-md-6">

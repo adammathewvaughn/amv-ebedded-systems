@@ -18,8 +18,8 @@ code {
   text-align: center;
   background-color: white;
   color: #19336E;
-  width:auto;
-  height: 100%;
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,17 +47,18 @@ code {
   width:300px;
   font-size:24px;
   border-radius:7px;
-
 }
+
 .App-link:hover {
-  background:white;
-  border: 2px solid #19336e;
-  color: #19336e;
-  transition:ease-in-out;
+background:white;
+border:  solid #19336e;
+color: #19336e;
+/*
+transition:ease-in-out; 
   transition-duration: .25s;
+ */
   margin: 5px;
 }
-
 .LinksDiv {
   background-color: white;
   display: flex;
