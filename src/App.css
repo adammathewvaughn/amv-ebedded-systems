@@ -1,6 +1,6 @@
 .App {
-   text-align:center;
-  width:100%;
+  text-align: center;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,7 @@ code {
   justify-content: center;
 
 }
+
 .App-body>p {
   padding-top: 0px;
   margin-top: 0px;
@@ -41,24 +42,24 @@ code {
 
 .App-link {
   background: #19336e;
-  color:white;
-  padding:20px;
-  margin:5px;
-  width:300px;
-  font-size:24px;
-  border-radius:7px;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  width: 300px;
+  font-size: 24px;
+  border-radius: 7px;
+  border: 2px solid white;
 }
 
 .App-link:hover {
-background:white;
-border:  solid #19336e;
-color: #19336e;
-/*
-transition:ease-in-out; 
+  background: white;
+  border: 2px solid #19336e;
+  color: #19336e;
+  transition: ease-in-out;
   transition-duration: .25s;
- */
   margin: 5px;
 }
+
 .LinksDiv {
   background-color: white;
   display: flex;
@@ -72,7 +73,7 @@ transition:ease-in-out;
 
 .slogan {
   margin-bottom: 5px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 /* hr {
