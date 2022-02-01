@@ -7,19 +7,12 @@
   justify-content: center;
   margin: 0px;
   padding: 0px;
-  padding: 0px;
-}
-
-code {
-  color: #10b158;
 }
 
 .App-body {
   text-align: center;
   background-color: white;
   color: #19336E;
-
-
   display: flex;
   flex-direction: column;
   align-items: center;
