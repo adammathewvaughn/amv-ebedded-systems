@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +26,6 @@
   text-align: center;
   background-color: white;
   color: #19336E;
-  max-width: 950px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,8 +64,10 @@
 }
 
 .slogan {
+  color: #9B2330;
   margin-bottom: 5px;
   padding-bottom: 10px;
+  text-shadow: .15px .15px #19336E
 }
 
 /* hr {
