@@ -50,6 +50,7 @@
   transition: ease-in-out;
   transition-duration: .25s;
   margin: 5px;
+  text-shadow: .5px .5px #9B2330
 }
 
 .LinksDiv {
