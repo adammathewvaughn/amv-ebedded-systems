@@ -19,9 +19,10 @@ a {
     margin: 5px;
     text-decoration:none;
     color:cornflowerblue;
-    text-shadow: .25px .25px #9B2330 ;
+    text-shadow: .25px .25px #9B2330;
 }
 
-i      {
-    text-shadow: 5px 5px #9B2330 
+span {   
+    color: cornflowerblue;
+    text-shadow: .5px .5px #9B2330;
 }
