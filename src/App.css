@@ -1,12 +1,24 @@
+#root {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
+ 
+  max-width: 100%;
+  min-height: 100%;
+
+
 }
 
 .App-body {
-  min-height: 100%;
+
+    max-width: 100%;
+
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -20,9 +32,11 @@
 
 }
 
-.App-body>p {
-  padding-top: 0px;
-  margin-top: 0px;
+.bodyp {
+  padding-left:25px;
+  padding-right: 25px;
+  margin-left:  25px;
+  margin-right: 25px;
   text-align: center;
   background-color: white;
   color: #19336E;
@@ -76,5 +90,5 @@
       background-color: crimson;
       height: 4px;
       margin-top: -36px;
-      border-radius: 50px;
+      border-radius: 25px;
 } */
