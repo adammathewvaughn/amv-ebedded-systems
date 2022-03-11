@@ -5,41 +5,33 @@
 .App {
   text-align: center;
   display: flex;
-  
   flex-direction: column;
   justify-content: center;
- 
   max-width: 100%;
   min-height: 100%;
-
-
 }
 
 .App-body {
-
-    max-width: 100%;
-
-  margin: 0px;
-  padding: 0px;
+  max-width: 100%;
+  margin: 0%;
+  padding: 0%;
   text-align: center;
   background-color: white;
-  color: #19336E;
+  color: #19336e;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
- 
-
 }
 
 .bodyp {
-  padding-left:25px;
+  padding-left: 25px;
   padding-right: 25px;
-  margin-left:  25px;
+  margin-left: 25px;
   margin-right: 25px;
   text-align: center;
   background-color: white;
-  color: #19336E;
+  color: #19336e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,24 +39,31 @@
 }
 
 .App-link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   background: #19336e;
   color: white;
-  padding: 20px;
-  margin: 5px;
-  width: 300px;
-  font-size: 24px;
-  border-radius: 7px;
-  border: 2px solid white;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  width: 17.5rem;
+  height: 3.5rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: 0.15rem solid white;
 }
 
 .App-link:hover {
+  width: 17.5rem;
+  height: 3.5rem;
   background: white;
-  border: 2px solid #19336e;
+  border: 0.15rem solid #19336e;
   color: #19336e;
   transition: ease-in-out;
-  transition-duration: .25s;
-  margin: 5px;
-  text-shadow: .5px .5px #9B2330
+  transition-duration: 0.25s;
+  margin: 0.25rem;
+  text-shadow: 0.05rem 0.05rem #9b2330;
 }
 
 .LinksDiv {
@@ -73,16 +72,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #19336E;
+  color: #19336e;
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
 .slogan {
-  color: #9B2330;
+  color: #9b2330;
   margin-bottom: 5px;
   padding-bottom: 10px;
-  text-shadow: .15px .15px #19336E
+  text-shadow: 0.15px 0.15px #19336e;
 }
 
 /* hr {

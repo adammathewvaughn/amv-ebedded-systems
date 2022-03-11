@@ -1,15 +1,15 @@
 .adam-foot {
-    position: sticky;
-    display:flex;
+    position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
-    background:#19336e;
-    padding:23px;
+    color: white;
+    background: #19336e;
+    padding: 23px;
     font-size: calc(5px + 2vmin);
-     border-top: 1px solid #9B2330;
-  border-bottom: 1px solid #9B2330;
-  min-width: 100%;
+    border-top: 1px solid #9B2330;
+    border-bottom: 1px solid #9B2330;
+    min-width: 100%;
 }
 
 .IBLove {
@@ -21,12 +21,12 @@
 
 a {
     margin: 5px;
-    text-decoration:none;
-    color:cornflowerblue;
+    text-decoration: none;
+    color: cornflowerblue;
     text-shadow: .25px .25px #9B2330;
 }
 
-span {   
+span {
     color: cornflowerblue;
     text-shadow: .5px .5px #9B2330;
 }
