@@ -50,7 +50,7 @@ function App() {
                 href="mailto:adam@adammathewvaughn.com"
                 target="_blank"
                 rel="noopener noreferrer"
-              > Email
+              >Email
               </a>
               <a
                 className="App-link"
