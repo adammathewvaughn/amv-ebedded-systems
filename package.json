@@ -1,5 +1,5 @@
 {
-  "name": "amv-ebedded-systems",
+  "name": "amv-embedded-systems",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

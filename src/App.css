@@ -1,27 +1,28 @@
-#root {
-  overflow: hidden;
-}
-
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
-  min-height: 100%;
+  flex-wrap: nowrap;
+  min-width: 0.5rem;
+  min-height: 10rem;
+  position: relative;
 }
 
 .App-body {
-  max-width: 100%;
+  position: relative;
   margin: 0%;
   padding: 0%;
   text-align: center;
   background-color: white;
   color: #19336e;
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
 }
 
 .bodyp {
@@ -36,9 +37,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
+  min-width: 0.5rem;
+  min-height: .5rem;
 }
 
 .App-link {
+  flex-wrap: nowrap;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -73,15 +78,20 @@
   align-items: center;
   justify-content: center;
   color: #19336e;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
+  padding-bottom: .5rem;
+  margin-bottom:2rem;
 }
 
 .slogan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
   color: #9b2330;
-  margin-bottom: 5px;
-  padding-bottom: 10px;
-  text-shadow: 0.15px 0.15px #19336e;
+  margin-bottom: 1rem;
+  padding-bottom: .002rem;
+  text-shadow: 0.02rem 0.02rem #19336e;
 }
 
 /* hr {
