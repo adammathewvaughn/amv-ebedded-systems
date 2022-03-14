@@ -6,10 +6,10 @@
     align-items: center;
     color: white;
     background: #19336e;
-    padding: 2rem;
+    padding: 1rem;
     font-size: calc(5px + 2vmin);
-    border-top: 1px solid #9B2330;
-    border-bottom: 1px solid #9B2330;
+    border-top: .25rem solid #9B2330;
+    /* border-bottom: .25rem solid #9B2330; */
     width: 100%;
   
     flex-wrap: nowrap;
@@ -17,19 +17,19 @@
 
 .IBLove {
     color: yellow;
-    text-shadow: 2px 2px purple;
+    text-shadow: 0.02rem 0.02rem  purple;
     padding: 0px;
     margin: 0px;
 }
 
 a {
-    margin: 5px;
+    margin: .5rem;
     text-decoration: none;
     color: cornflowerblue;
-    text-shadow: .25px .25px #9B2330;
+    text-shadow: 0.02rem 0.02rem #9B2330;
 }
 
 span {
     color: cornflowerblue;
-    text-shadow: .5px .5px #9B2330;
+    text-shadow: 0.02rem 0.02rem #9B2330;
 }

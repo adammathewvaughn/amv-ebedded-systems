@@ -79,7 +79,7 @@
   justify-content: center;
   color: #19336e;
   padding-bottom: .5rem;
-  margin-bottom:2rem;
+  margin-bottom:.5rem;
 }
 
 .slogan {
@@ -90,7 +90,7 @@
   flex-wrap: nowrap;
   color: #9b2330;
   margin-bottom: 1rem;
-  padding-bottom: .002rem;
+  padding-bottom: .02rem;
   text-shadow: 0.02rem 0.02rem #19336e;
 }
 
