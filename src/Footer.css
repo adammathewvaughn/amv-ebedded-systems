@@ -1,5 +1,4 @@
 .adam-foot {
-    position: absolute;
     margin-top: 1.5rem;     
      display: flex;
     justify-content: center;
@@ -7,7 +6,7 @@
     color: white;
     background: #19336e;
     padding: 1rem;
-    font-size: calc(5px + 2vmin);
+    font-size: calc(.5rem + 2vmin);
     border-top: .25rem solid #9B2330;
     /* border-bottom: .25rem solid #9B2330; */
     width: 100%;

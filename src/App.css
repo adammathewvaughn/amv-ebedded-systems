@@ -1,5 +1,14 @@
-.App {
+#root {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.App { 
+  max-zoom: 100;
   text-align: center;
+  min-zoom: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +16,7 @@
   flex-wrap: nowrap;
   min-width: 0.5rem;
   min-height: 10rem;
-  position: relative;
+  position: static;
 }
 
 .App-body {
@@ -68,7 +77,7 @@
   transition: ease-in-out;
   transition-duration: 0.25s;
   margin: 0.25rem;
-  text-shadow: 0.05rem 0.05rem #9b2330;
+  /* text-shadow: 0.05rem 0.05rem #9b2330; */
 }
 
 .LinksDiv {
@@ -91,7 +100,7 @@
   color: #9b2330;
   margin-bottom: 1rem;
   padding-bottom: .02rem;
-  text-shadow: 0.02rem 0.02rem #19336e;
+  /* text-shadow: 0.02rem 0.02rem #19336e; */
 }
 
 /* hr {
