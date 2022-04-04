@@ -1,11 +1,22 @@
 #root {
- 
+  overflow-y: hidden;
+  overscroll-behavior-y: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
+  position: absolute;
+}
+html {
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+  min-height: 100%
 }
 .App { 
+  
+  overflow-y: hidden;
+  overscroll-behavior-y: none;
   max-zoom: 100;
   text-align: center;
   min-zoom: 100;
@@ -16,10 +27,12 @@
   flex-wrap: nowrap;
   min-width: 0.5rem;
   min-height: 10rem;
-  position: static;
+  position: relative;
 }
 
 .App-body {
+  overflow-y: hidden;
+  overscroll-behavior-y: none;
   position: relative;
   margin: 0%;
   padding: 0%;
