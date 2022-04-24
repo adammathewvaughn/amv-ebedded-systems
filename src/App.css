@@ -1,35 +1,26 @@
-
 #root {
-  overflow-y: auto;
-  overscroll-behavior-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: sticky;
   align-items: center;
 }
-html {
 
+html {
   margin: 0;
   padding: 0;
-
   overflow-y: auto;
   overscroll-behavior-y: auto;
+  position: relative;
 }
-.App { 
-  
-  overflow-y: auto;
-  overscroll-behavior-y: auto;
 
+.App {
+  overscroll-behavior-y: auto;
   text-align: center;
-  min-zoom: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 100%;
   flex-wrap: nowrap;
- 
-  position: relative;
 }
 
 .App-body {
@@ -46,7 +37,6 @@ html {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
 }
 
 .bodyp {
@@ -62,8 +52,8 @@ html {
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
-  min-width: 0.5rem;
-  min-height: .5rem;
+  min-width: 0.25rem;
+  min-height: 0.25rem;
 }
 
 .App-link {
@@ -92,7 +82,7 @@ html {
   transition: ease-in-out;
   transition-duration: 0.25s;
   margin: 0.25rem;
-  /* text-shadow: 0.05rem 0.05rem #9b2330; */
+
 }
 
 .LinksDiv {
@@ -102,8 +92,8 @@ html {
   align-items: center;
   justify-content: center;
   color: #19336e;
-  padding-bottom: .5rem;
-  margin-bottom:.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .slogan {
@@ -114,8 +104,8 @@ html {
   flex-wrap: nowrap;
   color: #9b2330;
   margin-bottom: 1rem;
-  padding-bottom: .02rem;
-  /* text-shadow: 0.02rem 0.02rem #19336e; */
+  padding-bottom: 0.02rem;
+
 }
 
 /* hr {
