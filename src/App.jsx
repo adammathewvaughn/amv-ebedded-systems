@@ -21,7 +21,7 @@ function App() {
   const [count, setCount] = useState(0)
   return <>
     <div className="container fluid">
-      <div className="App justify-content-center row md-4 d-flex ">
+      <div className="App justify-content-center row-sm-6 d-flex ">
         <Header className="col-sm-6" />
         <div className="row-sm-6">
         <div className="container-fluid">
