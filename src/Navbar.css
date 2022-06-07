@@ -1,0 +1,12 @@
+nav {
+    align-items: space-between;
+    flex-direction: row;
+    height: 10rem;
+    width: 100%
+}
+#nav pill {
+    align-items: space-between;
+    flex-direction: row;
+    height: 10rem;
+    width: 100%
+}
