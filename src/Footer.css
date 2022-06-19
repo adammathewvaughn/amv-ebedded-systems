@@ -1,6 +1,6 @@
 .adam-foot {
     margin-top: 1.5rem;     
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
@@ -10,7 +10,7 @@
     border-top: .25rem solid #9B2330;
     /* border-bottom: .25rem solid #9B2330; */
     width: 100%;
-  
+    position: sticky;
     flex-wrap: nowrap;
 }
 

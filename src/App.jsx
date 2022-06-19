@@ -1,7 +1,7 @@
 
 import Footer from './Footer';
 import Header from './Header';
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import './App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
@@ -12,7 +12,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 
 const i = <FontAwesomeIcon icon={faCoffee} />
-// const j = <FontAwesomeIcon icon={faRaspberryPi} /> <i className="fa-brands fa-raspberry-pi mt-3 mb-0">{j}{j}{j}</i>
+//  const j = <><FontAwesomeIcon icon={faRaspberryPi} /><i className="fa-brands fa-raspberry-pi mt-3 mb-0">{j}{j}{j}</i></>
 const tagManagerArgs = {
   gtmId: 'GTM-MW7CTZK'
 }
@@ -23,13 +23,13 @@ function App() {
   return <>
     <div className="container fluid">
       <div className="App justify-content-center row-sm-6 d-flex ">
-        <Navbar className="navbar navbar-expand-lg navbar-light bg-primary" />
+       {/* <Navbar className="navbar navbar-expand-lg navbar-light bg-primary" />  */}
         <Header className="col-sm-6" />
-        <div className="row-sm-6">
-          <div className="container-fluid">
-            <div className="App-body col-sm-4">
-              <div className="row justify-content-between">
-                <div className="justify-content-left row-sm-4 d-flex ">
+        <div className="App-body row-sm-6">
+     
+            {/* <div className="App-body col-sm-4"> */}
+              <div className="row justify-content-between d-flex">
+                {/* <div className="justify-content-left row-sm-4 d-flex "> */}
 
                   <h1 className="slogan row-sm-6">—— Automating a better tomorrow ——</h1>
                   <p className="bodyp"> &nbsp; &nbsp; Hi, my name is Adam M. Vaughn and I'm a Birmingham-area Embedded Systems engineer with an emphasis on incorporating Full-Stack Development
@@ -71,9 +71,9 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+           
+          {/* </div> */}
+        {/* </div> */}
       </div>
       <Footer className="row-sm-4 d-flex" />
 
