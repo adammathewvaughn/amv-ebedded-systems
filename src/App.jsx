@@ -22,15 +22,10 @@ function App() {
 
   return <>
     <div className="container fluid">
-      <div className="App justify-content-center row-sm-6 d-flex ">
+    
        {/* <Navbar className="navbar navbar-expand-lg navbar-light bg-primary" />  */}
-        <Header className="col-sm-6" />
-        <div className="App-body row-sm-6">
-     
-            {/* <div className="App-body col-sm-4"> */}
-              <div className="row justify-content-between d-flex">
-                {/* <div className="justify-content-left row-sm-4 d-flex "> */}
-
+        <Header className="col-sm-6" />     
+              <div className="App-body col justify-content-center d-flex">
                   <h1 className="slogan row-sm-6">—— Automating a better tomorrow ——</h1>
                   <p className="bodyp"> &nbsp; &nbsp; Hi, my name is Adam M. Vaughn and I'm a Birmingham-area Embedded Systems engineer with an emphasis on incorporating Full-Stack Development
                     and REST APIs into microcontrolled systems. My goal as an embedded systems engineer is to combine my Full-Stack Web-Development education with my background in construction and my life-long infatuation with technology
@@ -67,16 +62,10 @@ function App() {
                       target="_blank"
                       rel="noopener noreferrer"
                     >Call
-                    </a>
-                  </div>
+                    </a>              
                 </div>
-              </div>
-           
-          {/* </div> */}
-        {/* </div> */}
       </div>
       <Footer className="row-sm-4 d-flex" />
-
     </div>
   </>;
 }
