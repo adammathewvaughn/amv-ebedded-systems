@@ -2,7 +2,7 @@
 import Footer from './components/Footer';
 import Header from './components/Header';
 // import Navbar from "./Navbar";
-import './App.css'
+import './utils/App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
