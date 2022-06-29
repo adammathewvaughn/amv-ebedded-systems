@@ -4,3 +4,16 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()]
 })
+const { resolve } = require('path')
+
+
+module.exports = defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        public: resolve(__dirname, 'public/index.html')
+      }
+    }
+  }
+})

@@ -5,7 +5,7 @@ import { Nav } from "react-bootstrap";
 const i = <FontAwesomeIcon icon={faRaspberryPi} />
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark" style="background-color: #e3f2fd;">
+        <Nav className="navbar navbar-expand-sm navbar-dark" style="background-color: #e3f2fd;">
             <a className="navbar-brand" href="#">Navbar</a>
             <button className="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"></button>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
             </div>
-        </nav>
+        </Nav>
     )
 
 }
