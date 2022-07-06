@@ -1,7 +1,7 @@
 
 import Footer from './components/Footer';
 import Header from './components/Header';
-// import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import './utils/App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
@@ -22,9 +22,28 @@ TagManager.initialize(tagManagerArgs)
 function App() {
 
   return <>
+    <Navbar className="Navbar " />
     <div className="container fluid">
-    
-       {/* <Navbar className="navbar navbar-expand-lg navbar-light bg-primary" />  */}
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a href="#" class="nav-link active">Active</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Action</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Another link</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
         <Header className="col-sm-6" />     
               <div className="App-body col justify-content-center d-flex">
                   <h1 className="slogan row-sm-6">—— Automating a better tomorrow ——</h1>
