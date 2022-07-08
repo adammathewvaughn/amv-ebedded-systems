@@ -8,12 +8,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faRaspberryPi } from '@fortawesome/free-brands-svg-icons';
 import { faLinux } from '@fortawesome/free-brands-svg-icons';
+import { faTerminal } from '@fortawesome/free-solid-svg-icons';
 // const express = require ('express')
 // let router = express.Router();
 
 const i = <FontAwesomeIcon icon={faCoffee} />
 const j = <FontAwesomeIcon icon={faRaspberryPi} />
 const k = <FontAwesomeIcon icon={faLinux} />
+const l = <FontAwesomeIcon icon={faTerminal} />
 const tagManagerArgs = {
   gtmId: 'GTM-MW7CTZK'
 }
@@ -24,30 +26,11 @@ function App() {
   return <>
     <Navbar className="Navbar " />
     <div className="container fluid">
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a href="#" class="nav-link active">Active</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Action</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link">Another link</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link disabled">Disabled</a>
-      </li>
-    </ul>
+   
         <Header className="col-sm-6" />     
               <div className="App-body col justify-content-center d-flex">
                   <h1 className="slogan row-sm-6">—— Automating a better tomorrow ——</h1>
-                  <span>{j} {k}</span>
+                  <span>{j} {k} {l}</span>
                   <p className="bodyp"> &nbsp; &nbsp; Hi, my name is Adam M. Vaughn and I'm a Birmingham-area Embedded Systems engineer with an emphasis on incorporating Full-Stack Development
                     and REST APIs into microcontrolled systems. My goal as an embedded systems engineer is to combine my Full-Stack Web-Development education with my background in construction and my life-long infatuation with technology
                     and hardware. With the prevalence of the IoT and micro-controlled/automated embedded systems via Raspberry Pi and Arduino, the juxtaposition of hardware and software has never been more at the forefront of our lives.
