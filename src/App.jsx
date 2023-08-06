@@ -36,7 +36,7 @@ function App() {
                   <div className="LinksDiv col-4 justify-content-between">
                     <a
                       className="App-link"
-                      href="https://www.linkedin.com/in/vaughn-embedded-systems"
+                      href="https://www.linkedin.com/company/adam-mathew-vaughn-embedded-systems"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
