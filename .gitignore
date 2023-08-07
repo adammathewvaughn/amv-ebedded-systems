@@ -6,3 +6,4 @@ dist-ssr
 .vscode
 .fake
 .pytest_cache
+.vscode/settings.json

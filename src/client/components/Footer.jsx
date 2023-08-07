@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
-import "./utils/Footer.css"
+import "/src/client/utils/Footer.css"
 import { faDiscord, faGithub, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
-
+import '/src/client/utils/index.css';
 const i = <FontAwesomeIcon icon={faDiscord} />
 const j = <FontAwesomeIcon icon={faTwitterSquare} />
 const k = <FontAwesomeIcon icon={faGithub} />

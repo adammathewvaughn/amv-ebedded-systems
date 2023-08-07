@@ -1,8 +1,6 @@
-
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Navbar from "./components/Navbar";
-import './utils/App.css'
+import Header from "/src/client/components/Header";
+import Footer from '/src/client/components/Footer';
+import '/src/client/utils/App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -24,7 +22,7 @@ TagManager.initialize(tagManagerArgs)
 function App() {
 
   return <>
-    <Navbar className="Navbar " />
+    {/* <Navbar className="Navbar " /> */}
     <div className="container fluid">
    
         <Header className="col-sm-6" />     
@@ -36,7 +34,8 @@ function App() {
                     and hardware. With the prevalence of the IoT and micro-controlled/automated embedded systems via Raspberry Pi and Arduino, the juxtaposition of hardware and software has never been more at the forefront of our lives.
                     Embedded systems is the natural arris of the myriad technologies that comprise our modern world, and I'm excited to begin my path in the field. I'm grateful for the opportunity to contribute to a
                     better world through coding and embedded systems, and I'm eagerly working to do more every day.
-                    I would love to speak with like-minded people, companies, and organizations who are interested in achieving similar goals, and I hope we can work together soon.</p>
+                    I would love to speak with like-minded people, companies, and organizations who are interested in achieving similar goals, and I hope we can work together soon.
+                  </p>
                   <div className="LinksDiv col-4 justify-content-between">
                     <a
                       className="App-link"

@@ -1,14 +1,17 @@
-
-import Footer from './client/components/Footer';
-import Header from './client/components/Header';
-import Navbar from "./client/components/Navbar";
-import './client/utils/App.css'
+import Header from "src/client/components/Header";
+import Footer from 'src/client/components/Footer';
+import './src/client/utils/App.css'
 import TagManager from 'react-gtm-module'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome/'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faRaspberryPi } from '@fortawesome/free-brands-svg-icons';
 import { faLinux } from '@fortawesome/free-brands-svg-icons';
 import { faTerminal } from '@fortawesome/free-solid-svg-icons';
+// import Footer from './client/components/Footer';
+
+// import Navbar from "./client/components/Navbar";
+
+
 // const express = require ('express')
 // let router = express.Router();
 
@@ -24,7 +27,7 @@ TagManager.initialize(tagManagerArgs)
 function App() {
 
   return <>
-    <Navbar className="Navbar " />
+    {/* <Navbar className="Navbar " /> */}
   
     
         <Header className="col-sm-6" />     
@@ -40,7 +43,7 @@ function App() {
                   <div className="LinksDiv col-4 justify-content-between">
                     <a
                       className="App-link"
-                      href="https://www.linkedin.com/in/vaughn-embedded-systems"
+                      href="https://www.linkedin.com/company/adam-mathew-vaughn-embedded-systems"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
